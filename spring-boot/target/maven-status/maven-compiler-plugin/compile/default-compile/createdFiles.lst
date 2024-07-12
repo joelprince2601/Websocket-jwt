@@ -1,0 +1,6 @@
+com\example\jwtwebsocket\config\WebSocketConfig.class
+com\example\jwtwebsocket\model\Message.class
+com\example\jwtwebsocket\controller\MessageController.class
+com\example\jwtwebsocket\service\JwtService.class
+com\example\jwtwebsocket\controller\MessageController$1.class
+com\example\jwtwebsocket\JwtWebsocketApplication.class
