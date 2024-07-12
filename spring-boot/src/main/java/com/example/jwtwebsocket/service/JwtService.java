@@ -25,7 +25,7 @@ public class JwtService {
         return Jwts.builder()
                 .setSubject(subject)
                 .setIssuedAt(Date.from(now))
-                .setExpiration(Date.from(now.plus(10, ChronoUnit.SECONDS))) // 20 seconds expiry
+                .setExpiration(Date.from(now.plus(9, ChronoUnit.SECONDS))) // 9 seconds expiry
                 .signWith(SignatureAlgorithm.HS256, getSigningKey())
                 .compact();
     }
